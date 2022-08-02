@@ -9,7 +9,7 @@ Author: Sean Bock [aut, cre],
   Bart Bonikoski [ctb],
   Yuchen Luo [ctb]
 Maintainer: Sean Bock <seanbock@g.harvard.edu>
-Description: Contains U.S. presidential stump speech data in a 'tidy' format.
+Description: Contains U.S. presidential candidate stump speech data from 1952 to 2020 in a 'tidy' format.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

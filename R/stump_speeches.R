@@ -1,6 +1,6 @@
-#' Stump speeches of U.S. Presidential candidates
+#' Stump speeches of U.S. major party presidential candidates, 1952-2020
 #'
-#' A dataset containing stump speeches from U.S. Presidential candidates.
+#' A dataset containing stump speeches from U.S. major party Presidential candidates from 1952-2020.
 #'
 #' @format A tibble with 2,956 rows and 12 columns:
 #' \describe{
