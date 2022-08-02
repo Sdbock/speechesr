@@ -2,8 +2,7 @@ Package: speechesr
 Title: U.S. Presidential Stump Speeches in 'Tidy' Format
 Version: 0.0.0.9000
 Authors@R: 
-    person("Sean", "Bock","seanbock@g.harvard.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Sean", "Bock","seanbock@g.harvard.edu", role = c("aut", "cre")
     person("Bart", "Bonikowski", "bonikowski@nyu.edu", role = c("aut"))
     person("Yuchen", "Luo", "yl3808@nyu.edu", role = c("aut"))
 Maintainer: Sean Bock <seanbock@g.harvard.edu>
