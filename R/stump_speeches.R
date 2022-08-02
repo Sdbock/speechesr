@@ -1,0 +1,21 @@
+#' Stump speeches of U.S. Presidential candidates
+#'
+#' A dataset containing stump speeches from U.S. Presidential candidates.
+#'
+#' @format A tibble with 2,956 rows and 12 columns:
+#' \describe{
+#'   \item{speech_id}{unique id number for each speech}
+#'   \item{text}{text of each speech}
+#'   \item{candidate}{full name of candidate}
+#'   \item{candidate_short}{last name of candidate}
+#'   \item{party}{political party of candidate}
+#'   \item{date}{date speech was given}
+#'   \item{election}{election year}
+#'   \item{weeks_to_election}{number of weeks until election}
+#'   \item{election_date}{full date of election}
+#'   \item{party_incumbent}{factor variable indicating whether or not candidate is incumbent candidate}
+#'   \item{prior_president}{factor variable indicating whether or not candidate is a former president}
+#'   \item{recession}{factor variable indicating whether or not election year was during recession}
+#' }
+#'
+"stump_speeches"
