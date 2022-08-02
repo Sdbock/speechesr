@@ -1,9 +1,9 @@
 # speechesr
 U.S. Presidential Stump Speeches in 'Tidy' Format
 
-**Work in progress!**
+**This package is a work in progress!**
 
-This is a working version of the `speechesr` package. This packge provides U.S. Presidential stump speeches in a tidy format. 
+This is a working version of the `speechesr` package. For now, this packge provides U.S. Presidential stump speeches in a tidy format. 
 
 
 # How to install 
