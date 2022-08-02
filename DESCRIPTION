@@ -22,3 +22,6 @@ Imports:
     readr
 URL: https://github.com/Sdbock/speechesr
 BugReports: https://github.com/Sdbock/speechesr/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true
