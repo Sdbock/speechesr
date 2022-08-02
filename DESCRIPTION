@@ -1,5 +1,5 @@
 Package: speechesr
-Title: U.S. Presidential Stump Speeches in 'Tidy' Format
+Title: Nifty U.S. Presidential Stump Speeches in 'Tidy' Format
 Version: 0.0.0.9000
 Authors@R: 
     person("Sean", "Bock","seanbock@g.harvard.edu", role = c("aut", "cre")
