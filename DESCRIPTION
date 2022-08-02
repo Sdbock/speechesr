@@ -3,8 +3,8 @@ Title: Nifty U.S. Presidential Stump Speeches in 'Tidy' Format
 Version: 0.0.0.9000
 Authors@R: 
     c(person("Sean", "Bock", email ="seanbock@g.harvard.edu", role = c("aut", "cre"),
-    person("Bart", "Bonikowski", email = "bonikowski@nyu.edu", role = c("ctb")),
-    person("Yuchen", "Luo", email = "yl3808@nyu.edu", role = c("ctb")))
+      person("Bart", "Bonikowski", email = "bonikowski@nyu.edu", role = c("ctb")),
+      person("Yuchen", "Luo", email = "yl3808@nyu.edu", role = c("ctb")))
 Author: Sean Bock [aut, cre],
   Bart Bonikoski [ctb],
   Yuchen Luo [ctb]
