@@ -19,7 +19,8 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     dplyr,
-    readr
+    readr,
+    shiny
 URL: https://github.com/Sdbock/speechesr
 BugReports: https://github.com/Sdbock/speechesr/issues
 Depends: 
