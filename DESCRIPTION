@@ -19,8 +19,12 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     dplyr,
+    ggrepel,
+    ggthemes,
+    grid,
     readr,
-    shiny
+    shiny,
+    tidytext
 URL: https://github.com/Sdbock/speechesr
 BugReports: https://github.com/Sdbock/speechesr/issues
 Depends: 

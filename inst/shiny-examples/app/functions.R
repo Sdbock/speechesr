@@ -1,10 +1,4 @@
 
-library(tidyverse)
-library(tidytext)
-library(ggthemes)
-library(ggrepel)
-library(grid)
-library(arrow)
 
 
 
