@@ -17,5 +17,6 @@ Run `stump_speeches` to load data as tibble.
 
 `launch_ngram_viewer()` opens the accompanying shiny app. 
 
+![ngram_viewer_v2](https://user-images.githubusercontent.com/35930477/182710209-dfaf04b9-f7cb-4b09-9bce-ff73f3c37fab.gif)
 
-![U S  Presidential Speech Ngram Viewer](https://user-images.githubusercontent.com/35930477/182707987-ecfa9821-1853-4bd6-9f74-cbdc2dc0750c.gif)
+
