@@ -8,8 +8,8 @@ library(arrow)
 
 
 
-ngrams_overall <- read_feather("ngrams_overall")
-ngrams_byparty <- read_feather("ngrams_byparty")
+#ngrams_overall <- read_feather("ngrams_overall")
+#ngrams_byparty <- read_feather("ngrams_byparty")
 
 
 #choices <- readRDS(here::here("data","ngrams_choices.RDS"))
@@ -32,7 +32,7 @@ plot_base <- function(data, terms, years = c(1952,2020), ...) {
     theme(
       plot.background = element_rect(color = "white"),
       axis.text.x = element_text(angle = 90)
-    ) 
+    )
 }
 
 plot_overall <- function(...) {
@@ -52,10 +52,10 @@ plot_overall <- function(...) {
 
 
 plot_party <- function(...) {
-  
+
   dems <- "#016a8e"
   reps <- "#b1283a"
-  
+
   plot_base(data = ngrams_byparty,...) +
     geom_line(data = . %>% filter(party == "Democrat"), aes(color  = party)) +
     geom_line(data = . %>% filter(party == "Republican"), aes(color = party)) +
@@ -76,39 +76,39 @@ plot_party <- function(...) {
     theme(legend.position = "right",
           legend.justification = "top",
           legend.background = element_rect(color = "white"))
-  
+
 }
 
 
 plot_ngrams <- function(byparty = TRUE, facet_ngram = FALSE, facet_party = FALSE,...) {
-  
+
   if(byparty == TRUE) {
     plot <- plot_party(...)
   }
-  
+
   else{
     plot <- plot_overall(...)
   }
-  
+
   if(facet_ngram == FALSE) {
     plot <- plot
   }
-  
+
   else {
     plot <- plot +
       facet_wrap(~word, ncol = 2) +
       theme(
-        strip.text.x = element_blank() 
+        strip.text.x = element_blank()
       )
-  } 
-  
+  }
+
   if(byparty == TRUE & facet_party ==  TRUE){
     plot <- plot +
       facet_wrap(~party,ncol = 2) +
       theme(
         strip.text.x = element_blank()
       )
-  } 
+  }
   else{
     plot <- plot
   }
