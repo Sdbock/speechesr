@@ -17,6 +17,10 @@ Run `stump_speeches` to load data as tibble.
 
 `launch_ngram_viewer()` opens the accompanying shiny app. 
 
-![ngram_viewer_v2](https://user-images.githubusercontent.com/35930477/182710209-dfaf04b9-f7cb-4b09-9bce-ff73f3c37fab.gif)
+
+
+
+https://user-images.githubusercontent.com/35930477/182710938-1ed630b2-42c5-4e38-a4a2-bc47ae14a7a8.mp4
+
 
 
