@@ -2,7 +2,7 @@
 #' plot_party
 #'
 #'
-#'
+#' @keywords internal
 #' @noRd
 #'
 

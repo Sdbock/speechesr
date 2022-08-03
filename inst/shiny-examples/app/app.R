@@ -77,7 +77,7 @@ server <- function(input, output, session) {
       output$plot <- renderPlot({
       words <- input$terms
 
-      plot_ngrams(terms = words, byparty = input$byparty, facet_ngram = input$facet_ngram, facet_party = input$facet_party, years = input$years)
+      speechesr:::plot_ngrams(terms = words, byparty = input$byparty, facet_ngram = input$facet_ngram, facet_party = input$facet_party, years = input$years)
 
 
     })

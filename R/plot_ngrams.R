@@ -1,8 +1,8 @@
 #' plot_ngrams
 #'
 #'
-#'
-#' @NoRd
+#' @keywords internal
+#' @noRd
 
 
 

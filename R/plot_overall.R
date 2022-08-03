@@ -2,7 +2,7 @@
 #' plot_overall
 #'
 #'
-#'
+#' @keywords internal
 #' @noRd
 #'
 

@@ -1,6 +1,6 @@
 #' plot_base
 #'
-#'
+#' @keywords internal
 #' @noRd
 #'
 plot_base <- function(data, terms, years = c(1952,2020), ...) {
