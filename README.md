@@ -19,8 +19,8 @@ Run `stump_speeches` to load data as tibble.
 
 
 
+![ngram_viewer_v2](https://user-images.githubusercontent.com/35930477/182711062-35ccad91-ee54-492f-8456-82fd05c05f6b.gif)
 
-https://user-images.githubusercontent.com/35930477/182710938-1ed630b2-42c5-4e38-a4a2-bc47ae14a7a8.mp4
 
 
 
